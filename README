@@ -1,0 +1,31 @@
+
+
+To do's
+==============
+
+Adnan
+- go through each sentence and write in english
+  * incorporate all references from bibtex
+  * include figs from scans
+  * include scope pictures
+- write conclusion
+
+
+Pete
+- get scope pics of 10 transistor design
+- pics of circuits
+
+=== SUBMIT
+
+- write analysis w/ Pete
+- write why power supply shouldn't need a power supply
+- efficiency calculations or measurements
+  * we have conduction losses, but not switching losses
+
+-say that 2 terminal AC version is good for universal AC indicators.
+- emphasize as discrete transistor designs, as opposed to designs based on op amps or other chips.
+ * what about saying that for an application like this, discrete transistor approach will work well enough and be cheaper than alternatives.. I dunno, have to think about this more
+
+
+=== DONE
+

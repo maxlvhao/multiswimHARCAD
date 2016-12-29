@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: multiswim.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ref.bib
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 10 entries,
+            4024 wiz_defined-function locations,
+            869 strings with 9038 characters,
+and the built_in function-call counts, 8403 in all, are:
+= -- 692
+> -- 161
+< -- 85
++ -- 92
+- -- 23
+* -- 407
+:= -- 1256
+add.period$ -- 24
+call.type$ -- 10
+change.case$ -- 10
+chr.to.int$ -- 192
+cite$ -- 10
+duplicate$ -- 588
+empty$ -- 681
+format.name$ -- 28
+if$ -- 1946
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 94
+newline$ -- 53
+num.names$ -- 10
+pop$ -- 194
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 657
+stack$ -- 0
+substring$ -- 460
+swap$ -- 499
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 10
+warning$ -- 0
+while$ -- 47
+width$ -- 12
+write$ -- 123

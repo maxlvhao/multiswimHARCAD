@@ -1,0 +1,22 @@
+   fig2tei.pdf
+
+The Sequential Wave Imprinting Machine (SWIM),
+   invented by Steve
+   Mann in the 1970s, offers naked-eye augmented reality overlays
+   with perfect alignment,
+   through a Persistence of Exposure (PoE) of human vision,
+   or photographic/videographic media.
+
+   This paper proposes a 
+   new SWIM design with only 2 transistor elements per picture elment,
+   therefore making SWIM more wearable, miniature, and affordable.
+   We present a SWIM for being worn on one finger, as a ring, to overlay
+   a phenomenologically augmented reality for metaveillance
+   (sensing sensors and sensing their capacity to sense).
+
+
+
+tswim_XYplotter_cp_lowres.jpg
+fig2tei.pdf
+
+

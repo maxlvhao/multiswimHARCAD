@@ -1,0 +1,14 @@
+%   I modified this from smallcaptionfonts which I got from the experts at SIPB
+%   I modified ``Jeff'''s .sty file to work in two column style
+%   --steve
+%
+%   see also 
+\long\def\@makecaption#1#2{
+   \vskip 8pt
+   \setbox\@tempboxa\hbox{\scriptsize #1: #2}
+   \ifdim \wd\@tempboxa >\hsize   % IF longer than one line:
+       {\scriptsize #1: #2\par}            %   THEN set as ordinary paragraph.
+     \else                        %   ELSE  center.
+       \hbox to\hsize{\hfil\box\@tempboxa\hfil}
+   \fi}
+

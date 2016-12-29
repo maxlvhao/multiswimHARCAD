@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: extended-abstract.aux
+The style file: SIGCHI-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: ref.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in caudell1992augmented
+Warning--empty address in caudell1992augmented
+Warning--empty publisher in drascic1996perceptual
+Warning--empty address in drascic1996perceptual
+Warning--empty publisher in mannHDR
+Warning--empty address in mannHDR
+Warning--empty publisher in mann1998wearable
+Warning--empty address in mann1998wearable
+Warning--empty publisher in mann2012realtime
+Warning--empty address in mann2012realtime
+You've used 10 entries,
+            5283 wiz_defined-function locations,
+            1277 strings with 15918 characters,
+and the built_in function-call counts, 9692 in all, are:
+= -- 1335
+> -- 265
+< -- 1
++ -- 81
+- -- 101
+* -- 545
+:= -- 973
+add.period$ -- 50
+call.type$ -- 10
+change.case$ -- 63
+chr.to.int$ -- 9
+cite$ -- 20
+duplicate$ -- 887
+empty$ -- 622
+format.name$ -- 116
+if$ -- 2487
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 45
+newline$ -- 99
+num.names$ -- 59
+pop$ -- 362
+preamble$ -- 1
+purify$ -- 102
+quote$ -- 0
+skip$ -- 233
+stack$ -- 0
+substring$ -- 788
+swap$ -- 91
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 90
+warning$ -- 10
+while$ -- 81
+width$ -- 0
+write$ -- 163
+(There were 10 warnings)

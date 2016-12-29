@@ -1,0 +1,248 @@
+\documentclass[conference]{IEEEtran}
+
+%\usepackage[active]{srcltx}
+%\usepackage[pdftex]{graphicx} 
+%\usepackage{savetrees}
+%\usepackage{caption}
+
+\usepackage[utf8x]{inputenc} 
+\usepackage{comment}  \usepackage{graphicx} \usepackage{amsmath}        
+\usepackage{varwidth} \usepackage{framed}    
+\usepackage{paralist} \usepackage{lastpage} \usepackage{hyperref}
+\usepackage{amsfonts} \usepackage{multicol} \usepackage{times}
+\usepackage{mdwlist}  \usepackage{hyphenat} \usepackage{color}
+\usepackage{array}    \usepackage{fancyhdr} \usepackage{booktabs}
+
+\usepackage{tinycaptionfont} 
+
+\usepackage{bibspacing} 
+\setlength{\bibspacing}{2.0\baselineskip}
+
+\newcommand{\comments}[1]{}
+
+
+\usepackage{fixltx2e}
+\usepackage{hyperref}
+\usepackage{url}
+
+
+\begin{document}
+
+\title{New LED Sequential Wave Imprinting Machine}
+
+%\title{Ultra-Simple, Two Switch, Self-Oscillating, Hysteretic Current Controlled Buck Converter, ideal for LEDs}
+
+\author{%
+\IEEEauthorblockN{Pete Scourboutakos, Sarang Nerkar, Steve Mann}
+\IEEEauthorblockA{Dept.\ of Electrical and Computer Engineering\\
+University of Toronto\\ Toronto, Canada\\
+{\footnotesize\texttt{\{pete, sarang, mann\}{@}eyetap.org}}}}
+\maketitle
+
+
+\begin{abstract}
+
+The Sequential Wave Imprinting Machine (SWIM), invented by Steve Mann in the 1970s, offers an augmediated reality experience which a group of people can all enagage in with the naked eye.\\
+The SWIM is swept in space like a broom, and produces a 2D holographic image of waves, similar to an oscilloscope display, but one which is registered not only in real-time but also in real-space, providing a seamless experience of augmediated reality, which embodies humanistic intelligence. \\
+This paper outlines a new LED SWIM which is made possible by recent improvements in LED technology. Because of bright and small LEDs, the new SWIM is simple, cheap, has a better resolution and is thinner than ever, making it more wearable, and thus more accessible in general. Photos and scientific results (measurement of wavelength?) of the new SWIM are presented.\\
+
+\end{abstract}
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+Augmediated reality is an experience where by the means of a system of technology, people are able to seamlessly improve or otherwise alter their perception of reality, while situated in reality, which is real-time and real-space. \\
+
+Augmediated reality systems may be organized into three types: \\
+
+Type 1, dB > 0 -Those of augmentation, which involve amplification/enhancement/addition of information, such as the system presented here. These systems are augmented reality.\\
+Type 2, dB < 0 -Those of diminishment which involve attenuation/subtraction of information, such as for the welding application. [cite mann] These systems are diminished reality.\\
+Type 3, dB E R -Those which are dynamic and can do both, as needed.\\
+
+Many augmediated reality systems are of the third type, designed as a generalized platform with the intention of supporting a variety of applications, which is in line with the way most personal computers (including smartphones) are thought of as being interacted with[cite?]. These systems consist of input and output devices, often cameras and aremacs respectively, with computer processing in between[cite mann gl45s]. Thanks to ongoing advancements in miniturization and wearable computer technology, there is large scale interest and commercial development ongoing in these areas [cite meta/visionertech]. The challenge with a system of this complexity is for it to embody the principles of humanistic intelligence[cite mann HI] which are key to a system which will provide a seamless and convincing experience which can advance technology for humanity.[more HI cite?]\\
+%What is more is that a high level of complexity 
+The augmediated reality system in this paper is strictly additive (type 1). It is also purpose built for the specific application of the visualization of radio waves, in the same fashion as early augmediated reality experiments carried out by Steve Mann in the 1970s.[cite Mann SWIM] Recently, with the availability of high efficiency and small size LEDs, the SWIM has become much more practical and this paper presents a novel circuit employed to make an LED based SWIM which is smaller than ever in volume, making these experiments in augmediated reality ever more practical as a wearable[show 2 pictures, side by side, LED swim and incandescant swim].\\
+%LED technology has existed since the 1970s (60s?) but until the last decade remained only practical for low light applications of indication, due to a severe limitation in light output compared to other sources of light such as incandescants, or fluourescents. Recent advances in semiconductor device design for LEDs has made LEDs practical for applications of lighting and display beyond simple indication, as made apparant by the availablilty of LED televisions in (2009/2012 Sony).[wikipedia, how do we cite something like this? cite a product]\\
+Television style, overlay (see-through) 2D displays worn over the eyes and mounted to the head like glasses, [cite, Sarang is there a word to describe this?] have been used extensively as the output device of choice for augmediated reality systems, [citations]. This is natural because they are usually already designed to work as computer displays. These types of devices are well suited to personal augmediated reality experiences, but do not work as easily for activities where multiple people or groups of people are involved and wish to partake in the same experience. For everyone to partake, everyone must wear their own pair of glasses, and high level software/networking systems are required to render the experience for everyone. This creates bottleneck points and opens up opportunities for delays and other issues which can strip the system of its humanistic intelligence, making the experience anything from less convincing to illness inducing to painful.[cite people getting sick from AR] \\ 
+The SWIM system forfeits the complexity imposed by the need for a general purpose system, and instead focuses as a single-purpose-built augmediated reality system which makes visible the normally invisible radio waves. In order to achieve this effect, the SWIM is simply driven with the doppler return output of any low power X band microwave radar set.[cite doppler return?] \\
+The SWIM works similarly to an oscilloscope with no timebase generator, (which is incidentally how Steve Mann was inspired) by painting out a sensed/measured wave in light so that it is made visible. Instead of the effect of the oscilloscope phosphor we have the phenomenon of persistance of exposure[cite mann]. An oscilloscope works in real-time but virtual-space on its own 2D display, like most AR systems, while the SWIM uses a 1D display to produce an image like a 2D holograph, which is registered in real-time as well as in real-space, as the user sweeps the SWIM device itself through the waves in space. \\
+Last and perhaps most importantly, the augmediated reality experience SWIM creates is easily shared among a group of people, all of whom may bear witness with the naked eye.
+
+\section{Recent Advances in SWIM}
+Recently new interest has been raised over SWIM, and several have been built.
+The first and simplest to implement were digital, with a microcontroller driving cascaded serially programmable WS2812 RGB "neopixels", which can conveniently be purchased in a strip, but pixels are large (greater than 0.5cm) and they suffer from a very poor refresh rate (?Hz). \\
+Next SWIMs were built around the LM3914 cascadable 10 segment dot/bar graph display driver IC, which produces excellent results with a high degree of accuracy, tested up to at least 100(did we? 80?) cascaded ICs for HD pixel counts and large scale size.
+The LM3914 was measured to have a bandwidth around 2Mhz, which translates to a very high "refresh rate" and the simple analog system controlling it approaches linear time invariancy, eliminating the possibility of any lag, so the system always responds instantly and the experience is seamless and convincing.
+Finally a novel discrete transistor circuit has been devised which makes a low pixel count SWIM smaller and cheaper than is possible with the LM3914. See schematic Fig. 1. A 0.5"x0.75" SWIM small enough to wear on a ring has been built and is presented. 
+  
+%
+%\section{Visualization of Waves with the Sequential Wave Imprinting Machine}
+%One important application of augmediated reality is for making visible the invisible world. It is known that invisible radio %waves are everywhere, permeating all space around us, and thus if these waves are made visible by some means, more may be learned of the world that surrounds us and the way it works. 
+%This is the ethos which led Steve Mann to develop the Sequential Wave Imprinting Machine as a teenager in the 1970s. The device was a general purpose analog or digitally controllable linear display of lightbulbs, with which he was able to visually witness (visualize) radio waves in real-time as well as real-space. The device is designed to operated in a simple manner, it is waved about by the user, and as it moves through space, it paints out in light [cite lightpainting? abakographic user interfaces] the radio waves produced by an accompanying radar set.
+
+%When in a dark place or where the ambient light can be controlled to a low level, the system works by the phenomenon of persistance of exposure[cite mann] and makes waves able to be observed with the naked eye by the user as well as onlookers. 
+
+\section{How does it work}
+
+Radio waves are generated, received, and processed with lock in amplifier style signal detection [LIA block diagram], all within a cheap radar based motion detector unit, which we call our radar set. 
+The doppler resultant signal produced from the motion detector is simply fed to the swim device.  
+[block diagram, radar, swim, pov waves]
+This system aims to embody humanistic intelligence by means of its simplicity, and lack of digital processing. An all analog signal path is inherantly linear time invariant and thus eliminates the possibility of any delay in feedback, producing a seamless effect which is convincing because it is always registered in both parts of reality, space and time.
+
+
+\section{HI}
+
+
+\section{HI}
+
+
+
+% An example of a floating figure using the graphicx package.
+% Note that \label must occur AFTER (or within) \caption.
+% For figures, \caption should occur after the \includegraphics.
+% Note that IEEEtran v1.7 and later has special internal code that
+% is designed to preserve the operation of \label within \caption
+% even when the captionsoff option is in effect. However, because
+% of issues like this, it may be the safest practice to put all your
+% \label just after \caption rather than within \caption{}.
+%
+% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
+% option should be used if it is desired that the figures are to be
+% displayed while in draft mode.
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=2.5in]{myfigure}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+%\caption{Simulation Results}
+%\label{fig_sim}
+%\end{figure}
+
+% Note that IEEE typically puts floats only at the top, even when this
+% results in a large percentage of a column being occupied by floats.
+
+
+% An example of a double column floating figure using two subfigures.
+% (The subfig.sty package must be loaded for this to work.)
+% The subfigure \label commands are set within each subfloat command, the
+% \label for the overall figure must come after \caption.
+% \hfil must be used as a separator to get equal spacing.
+% The subfigure.sty package works much the same way, except \subfigure is
+% used instead of \subfloat.
+%
+%\begin{figure*}[!t]
+%\centerline{\subfloat[Case I]\includegraphics[width=2.5in]{subfigcase1}%
+%\label{fig_first_case}}
+%\hfil
+%\subfloat[Case II]{\includegraphics[width=2.5in]{subfigcase2}%
+%\label{fig_second_case}}}
+%\caption{Simulation results}
+%\label{fig_sim}
+%\end{figure*}
+%
+% Note that often IEEE papers with subfigures do not employ
+% subfigure captions (using the optional argument to \subfloat), but
+% instead will reference/describe all of them (a), (b), etc., within
+% the main caption.
+
+
+% An example of a floating table. Note that, for IEEE style tables, the 
+% \caption command should come BEFORE the table. Table text will default to
+% \footnotesize as IEEE normally uses this smaller font for tables.
+% The \label must come after \caption as always.
+%
+%\begin{table}[!t]
+%% increase table row spacing, adjust to taste
+%\renewcommand{\arraystretch}{1.3}
+% if using array.sty, it might be a good idea to tweak the value of
+% \extrarowheight as needed to properly center the text within the cells
+%\caption{An Example of a Table}
+%\label{table_example}
+%\centering
+%% Some packages, such as MDW tools, offer better commands for making tables
+%% than the plain LaTeX2e tabular which is used here.
+%\begin{tabular}{|c||c|}
+%\hline
+%One & Two\\
+%\hline
+%Three & Four\\
+%\hline
+%\end{tabular}
+%\end{table}
+
+
+% Note that IEEE does not put floats in the very first column - or typically
+% anywhere on the first page for that matter. Also, in-text middle ("here")
+% positioning is not used. Most IEEE journals/conferences use top floats
+% exclusively. Note that, LaTeX2e, unlike IEEE journals/conferences, places
+% footnotes above bottom floats. This can be corrected via the \fnbelowfloat
+% command of the stfloats package.
+
+
+
+\section{Conclusion}
+The conclusion goes here.
+
+
+
+
+% conference papers do not normally have an appendix
+
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+
+
+The authors would like to thank...
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+\bibliography{ref}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+%\begin{thebibliography}{1}
+
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+%\end{thebibliography}
+
+
+
+
+% that's all folks
+\end{document}
+
+
